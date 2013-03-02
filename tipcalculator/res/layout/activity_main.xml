@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtBillAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/txtBillAmountString"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtBillAmount"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/chkRound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="15dp"
+        android:text="@string/chkRoundString"
+        
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/cbtnCalculate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chkRound"
+        android:layout_below="@+id/chkRound"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp" 
+        android:onClick="onCalculateClicked"
+        android:text="@string/cbtnCalculateString" />
+
+    <TextView
+        android:id="@+id/txtTipResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cbtnCalculate"
+        android:layout_below="@+id/cbtnCalculate"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:text="@string/txtTipResultString"
+        android:textSize="16sp" />
+
+</RelativeLayout>

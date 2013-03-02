@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">tipcalculator</string>
+    <string name="txtBillAmountString">Bill Amount</string>
+    <string name="menu_settings">Settings</string>
+ 	<string name="zero">0</string>
+ 	<string name="chkRoundString">Round to nearest dollar</string>
+ 	<string name="cbtnCalculateString">Calculate</string>
+ 	<string name="txtTipResultString">Tip:</string>
+</resources>
