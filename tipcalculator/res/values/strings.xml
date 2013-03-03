@@ -7,5 +7,7 @@
  	<string name="zero">0</string>
  	<string name="chkRoundString">Round to nearest dollar</string>
  	<string name="cbtnCalculateString">Calculate</string>
- 	<string name="txtTipResultString">Tip:</string>
+ 	<string name="txtTipResultString"></string>
+ 	<string name="edtBillAmountDefault"></string>
+ 	
 </resources>

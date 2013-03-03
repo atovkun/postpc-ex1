@@ -27,7 +27,9 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:background="@drawable/edittext"
-            android:textSize="16sp" />
+            android:text="@string/edtBillAmountDefault"
+            android:textSize="16sp" >
+        </EditText>
     </LinearLayout>
 
     <CheckBox
@@ -37,8 +39,8 @@
         android:layout_alignLeft="@+id/linearLayout1"
         android:layout_below="@+id/linearLayout1"
         android:layout_marginTop="15dp"
+        android:checked="false"
         android:text="@string/chkRoundString"
-        
         android:textSize="16sp" />
 
     <Button
@@ -48,9 +50,9 @@
         android:layout_alignLeft="@+id/chkRound"
         android:layout_below="@+id/chkRound"
         android:layout_marginTop="20dp"
-        android:textSize="16sp" 
         android:onClick="onCalculateClicked"
-        android:text="@string/cbtnCalculateString" />
+        android:text="@string/cbtnCalculateString"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/txtTipResult"
