@@ -41,6 +41,7 @@ public class MainActivity extends Activity {
 			DecimalFormat df = new DecimalFormat("#.00");
 			
 			tipTxt.setText("Tip: $"+df.format(tip));
+			
 		}
 	}
 
