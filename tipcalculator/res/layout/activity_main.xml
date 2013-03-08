@@ -44,22 +44,22 @@
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/cbtnCalculate"
+        android:id="@+id/btnCalculate"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/chkRound"
         android:layout_below="@+id/chkRound"
         android:layout_marginTop="20dp"
         android:onClick="onCalculateClicked"
-        android:text="@string/cbtnCalculateString"
+        android:text="@string/btnCalculateString"
         android:textSize="16sp" />
 
     <TextView
         android:id="@+id/txtTipResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/cbtnCalculate"
-        android:layout_below="@+id/cbtnCalculate"
+        android:layout_alignLeft="@+id/btnCalculate"
+        android:layout_below="@+id/btnCalculate"
         android:layout_marginTop="60dp"
         android:padding="10dp"
         android:text="@string/txtTipResultString"

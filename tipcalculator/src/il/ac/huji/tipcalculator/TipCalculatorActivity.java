@@ -10,7 +10,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity extends Activity {
+public class TipCalculatorActivity extends Activity {
 
 
 	@Override
@@ -47,10 +47,8 @@ public class MainActivity extends Activity {
 		if (round) {
 			int billRound = (int) Math.round(tip);
 			tipTxt.setText("Tip: $"+billRound);
-		} else {
-			DecimalFormat df = new DecimalFormat("#.00");
-			
-			tipTxt.setText("Tip: $"+df.format(tip));
+		} else {			
+			tipTxt.setText("Tip: $"+String.format("%.2f", tip));
 			
 		}
 	}
